@@ -1,5 +1,5 @@
 import pytest
-from calculator import _init_
+from calculator import Calculator
 
 def test_add():
     assert calculator.add(1, 2) == 3
